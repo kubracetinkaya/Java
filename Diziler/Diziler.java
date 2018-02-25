@@ -3,15 +3,9 @@ package diziler;
 
 import java.util.Scanner;
 
-/**
- *
- * @author asus
- */
 public class Diziler {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("dizinin eleman sayısını giriniz");
@@ -27,14 +21,14 @@ public class Diziler {
             System.out.println(dizi3[i]);
 
         }
-        //20
+        
         double i = 0;
         for (int j = 1; j < N; j++) {
             dizi2[j] = Math.sqrt(j);
             System.out.println(dizi2[j]);
 
         }
-        //21
+        
        
         double max = dizi2[0];
         double dizii[] = {9, 99,999};
@@ -51,7 +45,7 @@ public class Diziler {
         }
         System.out.println("dizinin en küçük elemanı:"+min);
         System.out.println("dizinin en büyük elemanı:" + max);
-        //22
+        
         int[] notlar = new int[N];
         for (int k = 0; k < N; k++) {
             notlar[k] = (int) (Math.random() * 10);
@@ -68,7 +62,7 @@ public class Diziler {
         System.out.println("toplamınız:" + toplam);
         System.out.println("çarpımınız:" + carpım);
 
-        //23,24,25
+        
         for (int a = 0; a < N; a++) {
             dizi1[a] = (int) (Math.random() * 10);
             System.out.println(dizi1[a]);
