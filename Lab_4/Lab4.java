@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Lab4 {
 
-    
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("bir tam sayı giriniz");
@@ -21,30 +21,63 @@ public class Lab4 {
         System.out.println("yeni sayınız:" + a1);
         System.out.println("diğer yeni sayınız:" + a2);
 
-        // b şıkkı
+        
         System.out.println("1 ile 31 arasında bir gün giriniz");
         int gün = in.nextInt();
-        if ((gün >= 1) && (gün < 31)) {
+         boolean deger=true;
+        
+        
+        
+        if ((gün >= 1) && (gün < 31)) 
+        {
             System.out.println("doğru gün girdiniz");
-        } else {
+        } else
+        {
             System.out.println("yanlış gün tekrar girin");
+            while(deger){
+            System.out.println("1 ile 31 arasında bir gün giriniz");
+            gün = in.nextInt();
+            if ((gün >= 1) && (gün < 31))
+                deger=false;
+            
+            }
+            deger=true;
+            
         }
         System.out.println("1 ile 12 arasında bir ay giriniz");
         int ay = in.nextInt();
-        if ((ay >= 1) && (ay < 31)) {
+        if ((ay >= 1) && (ay < 12)) 
+        {
             System.out.println("doğru ay girdiniz");
-        } else {
+        } else 
+        {
             System.out.println("yanlış ay tekrar girin");
+            while(deger){
+            System.out.println("1 ile 12 arasında bir ay giriniz");
+            ay = in.nextInt();
+            if ((ay >= 1) && (ay <12))
+                deger=false;
+            
+            }
+            deger=true;
         }
-        System.out.println("1901 ile 2014 arasında bir yıl giriniz");
+        System.out.println("1901 ile 2017 arasında bir yıl giriniz");
         int yıl = in.nextInt();
-        if ((yıl >= 1901) && (yıl < 2014)) {
+        if ((yıl >= 1901) && (yıl < 2017)) {
             System.out.println("doğru yıl girdiniz");
         } else {
             System.out.println("yanlış yıl girdiniz tekrar girin");
+            while(deger){
+            System.out.println("1901 ile 2017 arasında bir yıl giriniz");
+            yıl = in.nextInt();
+            if ((yıl >= 1901) && (yıl < 2017))
+                deger=false;
+            
+            }
+            deger=true;
         }
         System.out.println(+gün + "/" + ay + "/" + yıl + "/");
-        //c şıkkı
+        
         System.out.println("bir gün giriniz");
         int gn=in.nextInt();
         switch (gn){
@@ -56,41 +89,7 @@ public class Lab4 {
             case 6:System.out.println("6-cumartesi"); break;
             case 7:System.out.println("7-pazar"); break;
             default: System.out.println("geçersiz işlem");
-        //d şıkkı
-        int i = 0;
-        while (i < 1000) {
-            System.out.println(i);
-            i = i + 13;
-
-        }
-        //e şıkkı
-        int l=0;
-        while(l>-1000){
-            System.out.println(l);
-            l=l-13;
-        }
-       // f şıkkı
-        int x=2;
-        int üs=1;
-        while(x<10000){
-            System.out.println("2 nin"+üs+ "nci kuvveti" +x);
-            x=x*2;
-            üs++;
-        }
-        //g şıkkı
-        int k=2;
-        while(k>0){
-            k=k*k;
-            System.out.println(k); 
-            System.out.println("k nin int değerleri için sonuç"+k);
-        }
-        long y=3;
-        while(y>0){
-            y=y*y;
-            System.out.println(y);
-            System.out.println("y nin long değerleri için sonuç"+y);
-            
-        }
+        
         
         
         
