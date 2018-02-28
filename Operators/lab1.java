@@ -19,7 +19,7 @@ public class Lab1
         x=x/2;
          System.out.println("x=" +x);
          
-         //soru 2
+        
          int a,b,c;
          a=25;
          System.out.println(a);
@@ -34,12 +34,12 @@ public class Lab1
          System.out.println(z);
          System.out.println(y);
         
-         //soru 4
+         
          float f;
          f=0.000001f;   //float olduğu için sonuna f yazmalısınız, yoksa Java ondalıklı sayıları hep double olarak yorumlar
          System.out.println(f);  
                     
-         //soru 5
+         
           double pi=3.14;
         double r=4;
         double h=8;
