@@ -20,7 +20,7 @@ public class Lab2
         System.out.println("   JJ A      A  V      A    A");
         
         
-        //soru 2
+        
        
         System.out.println("Adınızı giriniz");
         String ad = in.next();
@@ -30,7 +30,7 @@ public class Lab2
         yas=2015-tarih;
         System.out.println("Merhaba "  +ad+   +yas+ " yaşındasınız");
        
-        //soru 3
+        
         System.out.println("Birinci ürünün ismini giriniz");
         String u1=in.next();
         System.out.println("Birinci ürünün miktarını giriniz");
@@ -65,7 +65,7 @@ public class Lab2
         System.out.println("|GENEL TOPLAM:                  |"+toplam+    "\t| ");
         System.out.println("--------------------------------------------------");
         
-        //soru 4
+       
         System.out.println("Birinci kişinin ismi");
         String isim1=in.next();
         System.out.println("Birinci kişinin yaşı");
