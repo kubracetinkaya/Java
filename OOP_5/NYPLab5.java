@@ -6,8 +6,8 @@ public class NYPLab5 {
 
     public static void main(String[] args) {
 
-        tarih t1 = new tarih(1, 1, 2016);
-        tarih t2 = new tarih(10, 4, 2016);
+        tarih t1 = new tarih(1, 1, 2017);
+        tarih t2 = new tarih(10, 4, 2017);
         System.out.println("Tarih 1:" + t1);
         System.out.println("Tarih 2:" + t2);
         System.out.println("--------------------------");
@@ -19,7 +19,7 @@ public class NYPLab5 {
             System.out.println("Tarih: " + t1 + ". Gün: " + say);
         }
 
-        t1.setTarih(1, 1, 2016);
+        t1.setTarih(1, 1, 2017);
         int say1 = t1.arasıKaçGün(t2);
         System.out.println("Arası " + say1);
         say1 = t2.arasıKaçGün(t1);
@@ -34,7 +34,7 @@ public class NYPLab5 {
         System.out.println("YIL:");
         int yıl = oku.nextInt();
         t1.setTarih(gün, ay, yıl);
-        t2.setTarih(16, 3, 2016);
+        t2.setTarih(16, 3, 2017);
         int günlük = t1.arasıKaçGün(t2);
         System.out.println(günlük + " günlüksünüz. (" + (günlük / 365.0) + " yıl)");
 
