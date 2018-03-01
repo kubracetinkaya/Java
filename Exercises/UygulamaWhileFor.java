@@ -1,21 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package uygulama.pkgwhile.pkgfor;
 
 import java.util.Scanner;
 
-/**
- *
- * @author asus
- */
 public class UygulamaWhileFor {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 //        int x = -20;
@@ -33,7 +23,7 @@ public class UygulamaWhileFor {
 //            z+=0.05;
 //    }
 //        
-        //soru10
+        
 //        System.out.println("pozitif bir sayı giriniz");
 //        double sayı = in.nextDouble();
 //
@@ -57,7 +47,7 @@ public class UygulamaWhileFor {
 //            break;
 //        }
 
-        //soru11
+        
 //        System.out.println("Negatif bir sayı giriniz");
 //        double sayı = in.nextDouble();
 //        double toplam = 0;
@@ -84,7 +74,7 @@ public class UygulamaWhileFor {
 //
 //        }
 //        System.out.println("sayıların toplamı" + toplam);
-        //soru12
+       
 //        double x = 1;
 //
 //        while (x > 0.001) {
@@ -96,12 +86,7 @@ public class UygulamaWhileFor {
         
         
         
-        //soru13
-        
-        
-        
-        
-        //soru14
+       
        
             
             
