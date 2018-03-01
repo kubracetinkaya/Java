@@ -17,7 +17,7 @@ public class tarih {
             return true;
         } else {
             if (this.yıl == 0) {
-                this.yıl = 2016;
+                this.yıl = 2017;
             }
             return false;
         }
