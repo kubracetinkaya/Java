@@ -1,7 +1,7 @@
 
 package nyp.lab8;
 
-public class motorluTasit extends tasit implements Comparable  //?????
+public class motorluTasit extends tasit implements Comparable  
 {
    
     @Override
